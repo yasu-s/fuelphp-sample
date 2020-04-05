@@ -1,5 +1,5 @@
 {
-    "name": "PHP Sample",
+    "name": "FuelPHP",
     "dockerFile": "Dockerfile",
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash"
