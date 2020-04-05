@@ -43,6 +43,8 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 RUN curl https://get.fuelphp.com/oil | sh
+RUN php composer.phar self-update
+RUN php composer.phar update
 
 # Switch back to dialog for any ad-hoc use of apt-get
 ENV DEBIAN_FRONTEND=dialog
