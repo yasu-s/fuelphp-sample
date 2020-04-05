@@ -1,0 +1,26 @@
+{
+    "name": "PHP Sample",
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "appPort": [8000],
+    "postCreateCommand": "php -v",
+    "remoteUser": "vscode",
+    "extensions": [
+        "felixfbecker.php-debug",
+        "felixfbecker.php-intellisense",
+        "alefragnani.bookmarks",
+        "usernamehw.errorlens",
+        "mkxml.vscode-filesize",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "oderwat.indent-rainbow",
+        "xyz.local-history",
+        "gizak.shortcuts",
+        "fabiospampinato.vscode-todo-plus",
+        "shardulm94.trailing-spaces",
+        "visualstudioexptteam.vscodeintellicode",
+        "mosapride.zenkaku",
+    ]
+}

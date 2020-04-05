@@ -1,0 +1,7 @@
+{
+  "editor.renderControlCharacters": true,
+  "editor.tabSize": 4,
+  "files.insertFinalNewline": true,
+  "files.encoding": "utf8",
+  "files.eol": "\n"
+}
