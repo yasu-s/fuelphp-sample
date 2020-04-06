@@ -37,6 +37,9 @@ return array(
 	 *  A route for showing page using Presenter
 	 *
 	 */
+	'hello' => array('welcome/hello', 'name' => 'hello'),
+	'hello/(:name)' => array('welcome/hello', 'name' => 'hello_param'),
 
-	'hello(/:name)?' => array('welcome/hello', 'name' => 'hello'),
+	/** sample */
+	'sample' => 'sample/index',
 );
