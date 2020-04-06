@@ -16,4 +16,14 @@ class Controller_Sample extends Controller
 	{
 		return Response::forge(View::forge('sample/index'));
 	}
+
+	/**
+	 * サンプルページ
+	 * @access  public
+	 * @return  Response
+	 */
+	public function action_about()
+	{
+		return Response::forge(Presenter::forge('sample/about'));
+	}
 }

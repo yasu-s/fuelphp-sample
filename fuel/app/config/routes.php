@@ -42,4 +42,5 @@ return array(
 
 	/** sample */
 	'sample' => 'sample/index',
+	'sample/about' => 'sample/about',
 );

@@ -19,6 +19,9 @@
 					<li>
 						<?php echo Html::anchor(Router::get('hello_param', array('name' => 'aa')), 'welcome/hello/param'); ?>
 					</li>
+					<li>
+						<?php echo Html::anchor(Router::get('sample/about'), 'about'); ?>
+					</li>
 				</ul>
 			</div>
 		</div>
