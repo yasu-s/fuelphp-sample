@@ -12,7 +12,8 @@
 
 ## 実行
 
-- `php -S 0.0.0.0:8000`  
+- `php composer.phar update` パッケージインストール
+- `php -S 0.0.0.0:8000` で実行
 `http://localhost:8000/public` へアクセスする
 
 ## ユニットテスト
